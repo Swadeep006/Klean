@@ -15,6 +15,7 @@ A desktop application built using Electron and Node.js to:
    cd system-cleaner
    ```
 
+   // added this line 
 2. Install dependencies:
 
    ```bash
