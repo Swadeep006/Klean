@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>System Cleaner</title>
+  <style>
+    body { font-family: Arial; margin: 20px; background-color: #f8f8f8; }
+    h1 { color: #333; }
+    .package-list { margin-top: 20px; }
+    .package-item { background: #fff; padding: 10px; margin-bottom: 10px; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+    .reason { color: #888; font-size: 0.9em; }
+    .btn-delete { background: red; color: #fff; padding: 5px 10px; border: none; border-radius: 5px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>System Cleaner</h1>
+  <button onclick="scanPackages()">Scan Packages</button>
+  <div class="package-list" id="packageList"></div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
